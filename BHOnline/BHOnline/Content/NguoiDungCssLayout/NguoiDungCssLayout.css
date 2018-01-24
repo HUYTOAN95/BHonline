@@ -1,0 +1,181 @@
+﻿
+/*Sử dụng độ rộng cho div toàn trang*/
+div#ToanTrang {
+    position:relative;
+    font-family:'Segoe UI';
+    font-weight:bold;
+    background-color:white;
+
+}
+
+
+
+/* thiết kế flash*/
+.flash{
+    height:20px;
+}
+.flash-left{
+    float:left;
+}
+/*Thiết kế link đăng ký đăng nhập*/
+.DangKyDangNhap {
+    float: right;
+   
+    margin-right:3%;
+}
+.DangKyDangNhap a:hover {
+    text-decoration:none;
+    color:green;
+    
+}
+.icDienThoai {
+    margin-top:-1%;
+    float:left;
+
+}
+#image
+{ float: left;
+  margin-left:1%
+     
+}
+/*css divDanhMuc*/
+#divDanhMuc {
+height:30px;
+margin-left:8%;
+margin-right: 5%;
+}
+/*css cho menu header*/
+.navMenu {
+    float:right;
+    margin-right:10%;
+}
+    .navMenu ul {
+        float: left;
+       
+    }
+    .navMenu li {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 14px;
+        display: inline;
+        border-right: solid 1px rgba(0,0,0,.1);
+        padding: 20px;
+        padding-top: 19px;
+        padding-bottom: 22px;
+        -webkit-transition: all .5s ease-out;
+        -moz-transition: all .5s ease-out;
+        -ms-transition: all .5s ease-out;
+    }
+/*Css hover thay đổi màu chậm*/
+.navMenu li:hover{
+    background-color:rgba(0,0,0,.5);
+     -webkit-transition:all .5s ease-out;  
+      -moz-transition:all .5s ease-out;  
+       -ms-transition:all .5s ease-out;  
+}
+.navMenu a:hover {
+    text-decoration:none;
+
+}
+/*css divTimKiem*/
+#txtTimKiem {
+    float:left;
+    margin-left:5%;
+}
+#txtTimKiem input{
+     height:0;
+     
+}
+/*css image button hình ảnh tìm kiếm*/
+#divHinhAnhTimKiem button {
+    margin-right:-65px;
+    padding:0 10px 0 10px;
+    background-color:#426db5;
+}
+#divHinhAnhTimKiem button:hover {
+    
+    background-color:rgba(0,0,0,.5);
+
+}
+#divHinhAnhTimKiem img {
+    width:30px;
+    height:30px;
+
+}
+/*Css cho nivoslider */
+#slider {
+    margin-top: -1%;
+    margin-right: 3%;
+    float: right;
+    width: 1000px;
+    height: 320px;
+}
+    #slider img {
+        width: 1000px;
+        height: 320px;
+    }
+#divMenuLeft {
+    margin-top: -1%;
+    float: left;
+    margin-left: 6%;
+}
+.activity {
+    border:medium ;
+    display: grid;
+    line-break: auto;
+    line-height: 24px;
+   
+    font: caption;
+    width: 300px;
+    height: 320px;
+    background-color: whitesmoke;
+}
+    .activity ul {
+        margin-bottom:0.5%;
+                    
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+        vertical-align:top;
+    }
+    .activity li {
+        margin-top: 1%;
+        display: list-item;
+        text-align: -webkit-match-parent;
+        text-decoration: none;
+        lighting-color: black;
+    }
+        .activity li:hover {
+            /*background-color: rgba(0,0,0,.5);*/
+            color: red;
+            -webkit-transition: all .5s ease-out;
+            -moz-transition: all .5s ease-out;
+            -ms-transition: all .5s ease-out;
+         
+        }
+        /*Thiết kế phần footer*/
+#footer {
+     text-align:center;
+    color:white;
+    margin-left: 7%;
+    margin-right:5%;
+    background-color: gray;
+    font-family: "Times New Roman", Times, serif;
+    font-size:16px;
+    height:120px;
+}
+.left {
+    margin-left: 2% ;
+    margin-top: 10%;
+}
+
+ /*Div nhà xuất bản*/
+    #divLeft {
+        width: 30%;
+        float: left;
+    }
+#divLeft .item{
+    width:100%;    
+}
+#divRight {
+      float:right;
+      width:70%;
+}
