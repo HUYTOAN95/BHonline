@@ -11,8 +11,9 @@ div#ToanTrang {
 
 
 /* thiết kế flash*/
-.flash{
+.flash{ margin-left:5%;
     height:20px;
+    margin-right:5%;
 }
 .flash-left{
     float:left;
@@ -35,13 +36,13 @@ div#ToanTrang {
 }
 #image
 { float: left;
-  margin-left:1%
+  margin-left:5%
      
 }
 /*css divDanhMuc*/
 #divDanhMuc {
 height:30px;
-margin-left:8%;
+margin-left:10%;
 margin-right: 5%;
 }
 /*css cho menu header*/
@@ -116,7 +117,7 @@ margin-right: 5%;
 #divMenuLeft {
     margin-top: -1%;
     float: left;
-    margin-left: 6%;
+    margin-left: 3%;
 }
 .activity {
     border:medium ;
@@ -125,13 +126,13 @@ margin-right: 5%;
     line-height: 24px;
    
     font: caption;
-    width: 300px;
+    width: 360px;
     height: 320px;
     background-color: whitesmoke;
 }
     .activity ul {
         margin-bottom:0.5%;
-                    
+        margin-left:8%;           
         font-family: "Times New Roman", Times, serif;
         font-size: 18px;
         vertical-align:top;
@@ -155,7 +156,7 @@ margin-right: 5%;
 #footer {
      text-align:center;
     color:white;
-    margin-left: 7%;
+    margin-left: 5%;
     margin-right:5%;
     background-color: gray;
     font-family: "Times New Roman", Times, serif;
@@ -178,4 +179,8 @@ margin-right: 5%;
 #divRight {
       float:right;
       width:70%;
+}
+#NoiDung{
+    text-align:center;
+   
 }
